@@ -4,10 +4,14 @@
 */
 
 * {
-  color: purple;
+  color: black;
 }
 
-#title,
-#subtitle {
+#title .content {
   background-color: black;
+  padding: 10px;
+}
+.subsection.paragraph,
+p {
+  background-color: gray;
 }
