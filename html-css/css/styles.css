@@ -1,0 +1,12 @@
+/*
+    Universal selector
+    *
+*/
+
+* {
+  color: purple;
+}
+
+div {
+  color: black;
+}
