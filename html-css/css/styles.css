@@ -5,13 +5,19 @@
 
 * {
   color: black;
+  padding: 5px;
+}
+#title {
+  background-color: hsl(120, 60%, 70%);
 }
 
-#title .content {
-  background-color: black;
+#title .content,
+#title .subsection.paragraph {
+  background-color: hsl(120, 100%, 25%);
   padding: 10px;
 }
-.subsection.paragraph,
+
 p {
-  background-color: gray;
+  color: white;
+  font: 15px "Roboto", sans serif;
 }
