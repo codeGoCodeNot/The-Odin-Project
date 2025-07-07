@@ -5,3 +5,14 @@
 #blue {
   color: blue;
 }
+
+p {
+  font-size: 20px;
+  color: red;
+}
+
+.text {
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+}
