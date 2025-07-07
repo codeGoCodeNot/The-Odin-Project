@@ -19,5 +19,16 @@
 
 p {
   color: white;
-  font: 15px "Roboto", sans serif;
+  font: 18px "Roboto", sans serif;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  height: auto;
+  width: 700px;
 }
