@@ -1,8 +1,6 @@
-const myInt = 5;
-const myFloat = 3.14159;
+// converting to number data types
 
-console.log(myInt);
-console.log(myFloat);
-
-const twoDecimals = myFloat.toFixed(2);
-console.log(twoDecimals);
+let myString = "100";
+console.log(typeof myString); // string
+const stringToNumber = Number(myString) + 5;
+console.log(stringToNumber); // 105
