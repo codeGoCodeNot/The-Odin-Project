@@ -1,9 +1,8 @@
-let name = "Johnsen";
-console.log(name);
-name = "Johnsen Berdin";
-console.log(name);
+const myInt = 5;
+const myFloat = 3.14159;
 
-const pi = 3.14;
-console.log(pi);
+console.log(myInt);
+console.log(myFloat);
 
-console.log((4 + 6 + 9) / 77);
+const twoDecimals = myFloat.toFixed(2);
+console.log(twoDecimals);
