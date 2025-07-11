@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 40px;
+}
+
+.box-one,
+.box-two {
+  background-color: red;
+  padding: 10px;
+  border: 20px solid purple;
+  margin: 60px;
+  width: 380px;
+  height: auto;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.box-two {
+  background-color: blue;
+  box-sizing: content-box;
+  width: 320px;
+}
+
+.box-three {
+  height: auto;
+  width: 360px;
+  background-color: rebeccapurple;
+  height: auto;
+  padding: 10px;
+  margin: 60px;
+  margin: 0 auto;
+}

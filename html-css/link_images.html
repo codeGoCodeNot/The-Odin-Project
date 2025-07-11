@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Links and images</title>
+  </head>
+  <body>
+    <h1>Homepage</h1>
+    <!--
+      To create a link in HTML, we use the anchor element
+      anchor  tags can link any kind of resources on the internet like videos, images and 
+      pdf files and so on, but for the most part, we will be linking to other HTML docs
+
+      We can use target attribute to specifies where to open the link
+
+      target="_blank" opens the link in a new tab
+      target="_self" opens the link in the same tab (default behavior)
+
+
+      We can also use rel attribute in an anchor tag to specifies the relationship between the current
+      page and linked page
+
+      rel="noopener" and rel="noreferrer" are used with target="_blank" for security
+      It ensures that a link opened in a new tab or window cannot interact with or access the original page
+      without it, the new page can use JS to manipulate the original page
+
+      rel="nofollow" tells search engines no to follow the link
+    -->
+
+    <!--
+      Absolute and Relative Links
+
+      Absolute links: links to pages on the other websites on the internet
+      made of the following parts: scheme://domain/path
+
+      Relative links: links to other pages within our own website
+      do not include the domain  name
+    -->
+    <a
+      href="https://www.theodinproject.com/about"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      The Odin Projects
+    </a>
+
+    <!--
+      Images
+      use void element <img/>
+
+      alt attribute
+      is used to describe an image
+    -->
+    <img
+      src="https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_URL/mdn-url-all.png"
+      alt="scheme://domain/path"
+      width="1000"
+      height="100"
+    />
+  </body>
+</html>
