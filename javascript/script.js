@@ -1,6 +1,7 @@
-// converting to number data types
+// Operator precedence
 
-let myString = "100";
-console.log(typeof myString); // string
-const stringToNumber = Number(myString) + 5;
-console.log(stringToNumber); // 105
+console.log(10 + 20 / 2 - 20 * 2); // -20
+
+// Override  operator precedence
+
+console.log((10 + 20) / 2);
