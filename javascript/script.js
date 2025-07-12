@@ -1,7 +1,10 @@
-// Operator precedence
+// string comparison
 
-console.log(10 + 20 / 2 - 20 * 2); // -20
+// to se whether a string is greater than another, JS uses the so-called "dictionary" or "lexicographical" order
+// In other words, strings are compared letter by letter
 
-// Override  operator precedence
+let a = "abc";
+let b = "abcd";
+console.log(a < b); // true
 
-console.log((10 + 20) / 2);
+// the longer strings are greater
