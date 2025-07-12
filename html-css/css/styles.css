@@ -1,0 +1,34 @@
+/*
+    Universal selector
+    *
+*/
+
+* {
+  color: black;
+  padding: 5px;
+}
+#title {
+  background-color: hsl(120, 60%, 70%);
+}
+
+#title .content,
+#title .subsection.paragraph {
+  background-color: hsl(120, 100%, 25%);
+  padding: 10px;
+}
+
+p {
+  color: white;
+  font: 18px "Roboto", sans serif;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  height: auto;
+  width: 700px;
+}
