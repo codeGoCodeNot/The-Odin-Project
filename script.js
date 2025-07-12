@@ -36,3 +36,24 @@ switch (new Date().getDay()) {
     day = "Saturday";
 }
 console.log(day);
+
+// another switch example
+
+let num = 5 + 2;
+
+switch (num) {
+  case 4:
+    console.log("Too small");
+    break;
+  case 5:
+    console.log("still small");
+    break;
+  case 6:
+    console.log("almost");
+    break;
+  case 8:
+    console.log("correct!");
+    break;
+  default:
+    console.log("Maybe this");
+}
